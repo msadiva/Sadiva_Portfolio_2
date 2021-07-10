@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Sadiva Madaan</title>
+    <link>https://msadiva.github.io/Sadiva_Portfolio_2/post/</link>
+    <description>Recent content in Projects on Sadiva Madaan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://msadiva.github.io/Sadiva_Portfolio_2/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project 1 : TableNet : Project Overview</title>
+      <link>https://msadiva.github.io/Sadiva_Portfolio_2/post/project-1/</link>
+      <pubDate>Sat, 10 Apr 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://msadiva.github.io/Sadiva_Portfolio_2/post/project-1/</guid>
+      <description>Created TableNet model from scratch using Tensorflow which helps in extracting tabular data from scanned images. Used Marmot data to train the model. Every image had its .xml file which contained all the info about the image. It was a computer segmentation task . Created column masks and table masks of the image with the help of the given .xml file. Used various architectures for encoder like ResNet-50 and VGG-19 .</description>
+    </item>
+    
+    <item>
+      <title>Analytics Vidhya Hackathon</title>
+      <link>https://msadiva.github.io/Sadiva_Portfolio_2/post/project-4/</link>
+      <pubDate>Fri, 09 Apr 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://msadiva.github.io/Sadiva_Portfolio_2/post/project-4/</guid>
+      <description> Participated in Computer Vision Hackathon . Problem statement was to predict whether the vehicle is an emergency vehicle or not . Used ResNet-34 to achieve a test accuracy of 94 %   Results   </description>
+    </item>
+    
+    <item>
+      <title>Project 3 : Prediction Model for Detecting Videogame’s Ratings : Project Overview</title>
+      <link>https://msadiva.github.io/Sadiva_Portfolio_2/post/project-3/</link>
+      <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
+      
+      <guid>https://msadiva.github.io/Sadiva_Portfolio_2/post/project-3/</guid>
+      <description>Scrapped various reviews of a videogame from metacritic.com using BeautifulSoup. Converted the text data into vectors using tf-idf and bag of words. Data was imbalanced so used SMOT to handle it . Used Gaussian Naive Bayes as a baseline model as it works pretty well for textual data.  Link for Github Repo</description>
+    </item>
+    
+    <item>
+      <title>Project 2 : Classification of sexual harrasment personal stories : Project Overview</title>
+      <link>https://msadiva.github.io/Sadiva_Portfolio_2/post/project-2/</link>
+      <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
+      
+      <guid>https://msadiva.github.io/Sadiva_Portfolio_2/post/project-2/</guid>
+      <description> Our problem is to categorize these personal stories and these stories can belong to multiple classes. We can map it into multi class classification problem. Implemented all the classical Machine Learning algorithms i.e Logistic Regression, SVM, Decision Trees, Gradient Boosting , Cat Boost, XG Boost etc and fine tuned them. Created a custom stacking classifier to classify these stories. Model was deployed using Flask API on Heroku. Link of the web app Project blog   Results   </description>
+    </item>
+    
+  </channel>
+</rss>
